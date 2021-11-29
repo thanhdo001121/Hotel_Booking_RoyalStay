@@ -1,0 +1,284 @@
+.roomReview_container{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.roomReview_star{
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 26px !important;
+    margin-bottom: 40px;
+}
+
+.roomReview_star > h2{
+    color: inherit !important;
+    font-size: 1em !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+
+.roomReview_review_input{
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 650px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 12px;
+    border-radius: 20px;
+}
+
+.comment_stars_text{
+    display: inline;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.comment_input{
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    width: 600px;
+}
+
+.message{
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    color: black;
+    padding: 10px 6px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.message:focus{
+    border-bottom: 2px solid black;
+}
+
+.message{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    max-height: 300px;
+}
+
+.comment_input_btn{
+    display: block;
+    text-align: right;
+}
+
+.comment_btn_submit{
+    background: none;
+    color: red;
+    border: 1px solid red;
+    padding: 12px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.4s linear;
+    cursor: pointer;
+    align-items: center;
+    font-weight: 600;
+    outline: none;
+}
+
+.comment_btn_submit:hover{
+    background: red;
+    color: #fff;
+}
+
+.comment_btn_cancel{
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 0px none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    color: #575757;
+    padding: 12px 40px;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+
+.comment_btn_cancel:hover{
+    background-color: #e7e7e7;
+}
+
+.block_comment{
+    display: block !important;
+    margin-bottom: 0px !important;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 12px !important;
+}
+
+.block_comment_container{
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+    width: calc(100% + 16px) !important;
+    -moz-box-pack: start !important;
+    -moz-box-align: stretch !important;
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+}
+
+.box_comment{
+    width: 41.6667% !important;
+    margin-right: 8.33333% !important;
+    position: relative !important;
+    margin-left: 0% !important;
+    margin-bottom: 40px !important;
+    padding: 20px;
+}
+
+.box_comment.HotelInvoiceDetail{
+    width: 100% !important;
+    margin-right:  0 !important;
+    position: relative !important;
+    margin-left: 0% !important;
+    margin-bottom: 0px !important;
+    padding: 0px;
+}
+
+.commentator{
+    margin-bottom: 16px !important;
+    -moz-box-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.commentator_avatar{
+    display: block !important;
+    position: relative !important;
+}
+
+.commentator_avatar.HotelInvoiceDetail{
+    display: none !important;
+    position: relative !important;
+}
+
+.commentator_img{
+    background-color: black !important;
+    color: white !important;
+    height: 56px !important;
+    width: 56px !important;
+}
+
+.commentator_info{
+    color: rgb(34, 34, 34) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    margin-left: 12px !important;
+    width: 100%;
+}
+
+.commentator_info.HotelInvoiceDetail{
+    display: flex;
+    color: rgb(34, 34, 34) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    margin-left: 0px !important;
+    width: 100%;
+}
+
+.commentator_name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentator_name.HotelInvoiceDetail{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentator_name.HotelInvoiceDetail > p{
+    display: none;
+}
+
+.commentator_name i{
+    text-align: right;
+    cursor: pointer;
+}
+
+.commentator_name i:hover{
+    color: #B22222;
+}
+
+.comment_time{
+    color: rgb(113, 113, 113) !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+    -moz-box-align: baseline !important;
+    display: flex !important;
+    align-items: baseline !important;
+}
+
+.comment_text{
+    color: #222222 !important;
+    font-weight: 400 !important;
+    font-size: 16 !important;
+    line-height: 24px !important;
+    word-break: break-word !important;
+    text-align:justify;
+}
+
+.add_comment{
+    margin-top: 0px !important;
+
+}
+
+.btn_add_cmt{
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    width: auto !important;
+    touch-action: manipulation !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    outline: currentcolor none medium !important;
+    padding: 13px 23px !important;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+    border-color: rgb(34, 34, 34) !important;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% !important;
+    color: rgb(34, 34, 34) !important;
+}
+
+.btn_add_cmt:hover{
+    border-color: rgb(0, 0, 0) !important;
+    background: rgb(247, 247, 247) none repeat scroll 0% 0% !important;
+    color: rgb(34, 34, 34) !important;
+}

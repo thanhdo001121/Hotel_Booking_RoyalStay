@@ -1,0 +1,120 @@
+.menuBooking_box{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menuBooking_box:hover{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+.menuBooking_box > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menuBooking_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: black !important;
+}
+
+.menuBooking_infoTop > h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.menuBooking_infoTop > p{
+    margin-top: 15px;
+    font-size: 13px;
+    color: gray;
+}
+
+.hotel_booking_status{
+    font-weight: 600;
+    color: white !important;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.hotel_booking_status.Staying{
+    background-color: rgb(255, 158, 66) !important;
+}
+
+.hotel_booking_status.Stayed{
+    background-color: green !important;
+}
+
+.hotel_booking_status.Cancel{
+    background-color: red !important;
+}
+
+.hotel_booking_status.Pending{
+    background-color: #007bff !important;
+}
+
+.menuBooking_infoBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuBooking_price{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.menuBooking_price > p{
+    text-align: right;
+}
+
+.menuBooking_price > h2, .menuBooking_price > h2 + p{
+    display: inline;
+}
+
+.menuBookingCard_btn, .menuBookingCard_btn_hotel, .menuBookingCard_btn_hotel1{
+    cursor: not-allowed;
+    position: absolute;
+    /* top: 20px; */
+    right: 60px;
+    cursor: pointer !important;
+    margin: 0px -8px !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    padding: 8px !important;
+    border: medium none !important;
+    background: transparent none repeat scroll 0% 0% !important;
+    color: rgb(34, 34, 34) !important;
+    text-decoration: underline !important;
+    -moz-box-align: center !important;
+    display: flex !important;
+    outline: none !important;
+    z-index: 50;
+}
+
+.menuBookingCard_btn_hotel1{
+    right: 200px;
+}
+
+.menuBookingCard_btn_hotel{
+    right: 100px;
+}
+
+.menuBookingCard_btn:hover, .menuBookingCard_btn_hotel:hover {
+    border: medium none !important;
+    background: rgb(247, 247, 247) none repeat scroll 0% 0% !important;
+    color: rgb(0, 0, 0) !important;
+}
